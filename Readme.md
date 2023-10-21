@@ -1,1 +1,1 @@
-Diffance between http1&http2 and object and internal reprasentation
+Differance between http1&http2 and object and internal reprasentation
