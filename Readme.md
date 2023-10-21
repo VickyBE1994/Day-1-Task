@@ -1,1 +1,1 @@
-Differance between http1&http2 and object and internal reprasentation
+Ques1 Differance between http1&http2 and Ques2 object and internal reprasentation
