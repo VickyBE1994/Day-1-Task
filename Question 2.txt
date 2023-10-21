@@ -1,4 +1,4 @@
-OBJECTS  And Its INTERNAL REPRRASENTATION
+OBJECTS  And Its INTERNAL REPRASENTATION
               objects in javascripts maybe define as an unordered collection of related data,of primitive or referance types in
   the "form of the key value"pairs .these keys can be variables or function and or calledproperties and methods,respectively in the
  contest of an object
