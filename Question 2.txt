@@ -1,31 +1,27 @@
-OBJECTS  And Its INTERNAL REPRESENTATION In JavaScript
-      Objects in javaccripts is its most important data types and forms the building blocks for modern javascripts
-     these objects are quit differnts from javascripts primitive datatypes(number,string,boolean,null,undefined and symbol)
-     in the sense that while these primitive datatypesall stored a single value each(depending of their types)
-      objects are more complexand esch object may contain any conbination of these primitive data types as well as the referance datatypes
-           
-           loosely speaking objects in javascripts maybe define as an unordered collection of related data,of primitive or referance types in
-            the "form of the key value"pairs .these keys can be variables or function and or calledproperties and methods,respectively in the
-            contest of an object
-            for examble.If your objects is a student .it well have propertieslike name,age,address,id,etc and methods like
+OBJECTS  And Its INTERNAL REPRRASENTATION
+              objects in javascripts maybe define as an unordered collection of related data,of primitive or referance types in
+  the "form of the key value"pairs .these keys can be variables or function and or calledproperties and methods,respectively in the
+ contest of an object
+ for examble.
+         If your objects is a student .it well have propertieslike name,age,address,id,etc and methods like
 
-            OBJECTS AND PROPERTIES
-               A javascripts objectshas properties associated withit.A property of an object can be explained as a variables
-               that is attached to the object.Object properties are basically the same as ordinary javascript variables,expected
-               for the attachment to objects.You access the properties of an object define the characteristics
-               of the object.You access the properties of an object with a simble dot-notation
+ OBJECTS AND PROPERTIES
+  A javascripts objectshas properties associated withit.A property of an object can be explained as a variables
+that is attached to the object.Object properties are basically the same as ordinary javascript variables,expected
+for the attachment to objects.You access the properties of an object define the characteristics of the object.
+You access the properties of an object with a simble dot-notation
 
                                      object name .propertyName
-             like all javascript variables,both the object name (which could be a normal variable) and 
-             property name mycar and give its property namedmake,model,and year as follows
+like all javascript variables,both the object name (which could be a normal variable) and 
+ property name mycar and give its property namedmake,model,and year as follows
                                     var my car=new object();
                                     mycar.make='Ford';
                                     mycar.model='mustang';
                                     mycar.year=1969;
-            unassigned properties of an objects are undefined(and not null).
+unassigned properties of an objects are undefined(and not null).
                                     mycar.color;//undefined
-            properties of javaccript objects can also be accessed or set using a bracket notation.objects are sometimes called associative 
-            arrays since each property is associated with a string value that can be access the properties of the mycar object as follows
+properties of javaccript objects can also be accessed or set using a bracket notation.objects are sometimes called associative 
+arrays since each property is associated with a string value that can be access the properties of the mycar object as follows
                                     mycar['make']='ford';
                                     mycar['model']='mustang'
                                     mycar['year']=1969
@@ -45,7 +41,7 @@ is also very usefull when property names are to be dynamically determined
                               myobj[obj]           ='object';
                               myobj['']            ='Even an empty string';
                               console.log(myobj);
-             You can also access properties by using a string value that is stored in a variable
+You can also access properties by using a string value that is stored in a variable
                                var propertyName    ='make';
                                mycar [propertyName]='ford';
                                propertyName        ='model';
@@ -67,9 +63,9 @@ is also very usefull when property names are to be dynamically determined
                               mycar.make=Ford
                               mycar.model=mustang
                               mycar.year=1969
-             CREATE JAVASCRIPT OBJECT WITH CONSTRUCTOR
+ CREATE JAVASCRIPT OBJECT WITH CONSTRUCTOR
                   Constructor is nothing but a function and with help of a new keyword,constructor function allow to create a
-       multiple object of same flaver as shown below
+            multiple object of same flaver as shown below
                               function Vehicle(name,maker)
                               {this.name=name;
                               this.maker=maker;
